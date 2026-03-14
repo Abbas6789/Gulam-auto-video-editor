@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import streamlit as st
 import os
 import json
@@ -266,9 +267,9 @@ def check_payment_status_from_sheet(email, json_key_str, sheet_name):
         return "Pending"
 
 TIKTOK_HASHTAGS = (
-    "#foryou #foryoupage #fyp #viral #trending #tiktok #explore "
-    "#viralvideo #ghulامhussainstudio #tiktokviral #reels #newvideo "
-    "#trending2024 #subscribe #share #like #follow #video #content"
+    "#foryou #foryoupage #fyp #viral #trending #tiktok #explore"
+    " #viralvideo #GhulamHussainStudio #tiktokviral #reels #newvideo"
+    " #trending2024 #subscribe #share #like #follow #video #content"
 )
 FB_HASHTAGS = (
     "#FacebookReels #Reels #Trending #Viral #FacebookVideo #Explore "
@@ -564,5 +565,4 @@ if unlocked:
 else:
     st.info("🔒 Unlock by completing payment below.")
 
-if st.session_state.yt_tags:
-    st.markdown("*
+if st.session_state.yt_
