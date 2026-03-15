@@ -1,6 +1,6 @@
 streamlit
 gspread
 oauth2client
-moviepy
+moviepy==1.0.3
 gTTS
 pandas
